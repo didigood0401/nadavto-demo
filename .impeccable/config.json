@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "nadavto-demo/s.css"
+        ],
+        "createdAt": "2026-11-20T18:12:23.858Z",
+        "reason": "Claude: orange left bars on stat blocks copy the asp-kama.ru reference the user asked to follow"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "nadavto-demo/s.css"
+        ],
+        "createdAt": "2026-11-20T18:12:24.468Z",
+        "reason": "Claude: false positive - CSS border-triangle play icon inside round button"
+      }
+    ]
+  }
+}
